@@ -1,3 +1,4 @@
+#UNFINISHED IT JUST PRACTICE
 import random
 
 print("If you got lucky 13 in the first try you are the luckiest person")
