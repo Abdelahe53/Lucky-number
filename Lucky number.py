@@ -1,15 +1,15 @@
-import random #used the "random" library
+import random  # Import the "random" library
 
-print("If you got lucky 13 in the first try you are the luckiest person") #there is nothing to explain in this line a zbay, just a normal print 
-input("Tap `Enter` to try your luck: ") #this is the input u fucking iliterate where you can tap `Enter` to get the fucking number
-random_number = random.randint(1, 100) #I used a range between 1 to 100 to give you hope.
-print("Your number is:", random_number) #here it gives you a random number
+print("If you get lucky 13 on the first try, you are the luckiest person!")  # Print a message
 
-number = random_number #number is a fucking random number
+lucky_num = 13
 
-#THIS LOOP IS ALREADY FUCKED SO NOTHING TO EXPLAIN
 while True:
-    if number == 13:
-        print("You are the luckiest person on earth")
+    random_number = random.randint(1, 100)  # Generate a random number between 1 and 100
+    print("Your number is:", random_number)  # Display the random number
+
+    if random_number == lucky_num:
+        print("You're lucky ma boi!")
         break
-print("Bad luck D:")
+    else:
+        input("99% of gamblers quit before they win big, try again...")
